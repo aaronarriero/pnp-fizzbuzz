@@ -10,5 +10,13 @@
             "name": "Aaron Arriero",
             "email": "aaron.arriero@paynopain.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aaron\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
 }
